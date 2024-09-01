@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock-Paper Game</title>
+</head>
+    <body>
+        <div class="container">
+          <div class="banner">
+            <p>ROCK<br> PAPER <br> SCISSORS</p>
+           <div class="score-box-1"><p>COMPUTER SCORE<br><span id="scorepc">0</span> </div>
+           <div class="score-box-2"><p>YOUR SCORE<br> <span id="score">0</span> </div>
+           </div>
+
+           <div class="game-cont">
+            <div class="info">
+              <p class="you"> YOU PICKED</p>
+              <p class="pc"> PC PICKED</p>
+            </div>
+
+            <div class="option">
+              <div class="rev-tri">
+              <img src="rev-triangle.svg"  class="triangle"></div>
+              <div class="rock-con con">
+                <div class="item">
+                  <img src="rock-symbl.png">
+                </div>
+              </div>
+
+              <div class="scis-con con">
+                <div class="item">
+                  <img src="scisor-symbl.png">
+                </div>
+              </div>
+
+              <div class="papr-con con">
+                <div class="item">
+                  <img src="paper-symbl.png">
+                </div>
+              </div>
+
+              <div class="rock-con comp">
+                <div class="item">
+                  <img src="rock-symbl.png">
+                </div>
+              </div>
+
+              <div class="scis-con comp">
+                <div class="item">
+                  <img src="scisor-symbl.png">
+                </div>
+              </div>
+
+              <div class="papr-con comp">
+                <div class="item">
+                  <img src="paper-symbl.png">
+                </div>
+              </div>
+            </div>
+
+            <div class="win-modal">             
+              <h1 class="winner">YOU WIN </h1>
+              <h3>AGAINST PC</h3>
+              <button class="play">PLAY AGAIN</button> </div> 
+              
+              <div class="butns">
+                <button class="next-button" style="display: none;">Next</button>
+              </div>
+            
+             </div>           
+
+            <div class="btn-div">
+              <button class="btn-rule">RULES</button>
+             </div>
+
+             <div class="rule-modal">
+              <div class="rule-instruct">
+               
+                <ul>
+                  <p class="close">X</p>
+                <span> Game Rules</span><br><br>
+                  <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                  <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                  <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                  <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul>  
+                   
+               </div>
+            </div>      
+              </div>
+             </div>
+           </div>         
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
